@@ -1,0 +1,191 @@
+.flexContainer {
+  width: 100%;
+  display: flex;
+}
+.flexItem {
+    flex: 1;
+}
+.flexStart {
+    justify-content: flex-start;
+}
+.flexEnd {
+    justify-content: flex-end;
+}
+.blueBackground {
+    background: lightskyblue;
+}
+.flexColumn {
+flex-direction: column;
+}
+.nav {
+    list-style: none;
+}
+.nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+    color: white;
+}
+.flexCenter {
+    justify-content: center;
+}
+.fullHeight {
+    height: 100vh;
+}
+.itemCenter {
+    align-items: center;
+}
+.fullHeight {
+    height: 100vh;
+}
+.centerImage {
+    background: url('1fon.jpg') center;
+    background-size: cover;
+}
+.main{
+    order: 1;
+    padding: 20px;
+    border-right: 1px solid #777777;
+    padding-bottom: 40%;
+    padding-top: 40px;
+}
+.sidebar {
+    width: 70%;
+    background: white;
+}
+.sidebarLeft{
+    order: 1;
+    width: 30%;
+    background: white;
+    padding: 20px;
+    padding-top: 40px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: lightskyblue;
+   color: white;
+   text-align: center;
+}
+/*cei legat de login*/
+.container {
+    width: 55%;
+    margin: 50px auto;
+    background: white;
+    border-radius: 8px;
+    padding: 50px; 25px;
+    border: 1px solid gray;
+    box-shadow: 7px 7px 7px #777777;
+}
+.flexContainer {
+    display: flex;
+}
+.flexItem {
+    flex: 1;
+}
+.marginBottom {
+    margin-bottom: 15px;
+    position: right;
+}
+.entry {
+    border: 1px solid rgba(147, 128, 108, 0.25);
+    padding: 0.5em 0.75em;
+    background-color: rgba(147, 128, 108, 0.1);
+    color: #666666;
+    margin-left: 94%;
+}
+
+/*clasa ca meniul sa fie fixat cind faci scrolle down*/
+.navbar {
+  overflow: hidden;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/*tabela*/
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px;
+}
+.rwd-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.rwd-table th {
+  display: none;
+}
+.rwd-table td {
+  display: block;
+}
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+.rwd-table th, .rwd-table td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .rwd-table th:first-child, .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child, .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: #eee;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: #34495E;
+}
+
+.rwd-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+}
+.rwd-table tr {
+  border-color: #46637f;
+}
+.rwd-table th, .rwd-table td {
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    padding: 1em !important;
+  }
+}
+.rwd-table th, .rwd-table td:before {
+  color: #dd5;
+}
