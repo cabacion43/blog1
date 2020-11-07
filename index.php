@@ -52,7 +52,7 @@ if (isset($_GET['totalRows_postlist'])) {
 }
 $totalPages_postlist = ceil($totalRows_postlist/$maxRows_postlist)-1;
 ?>
-<html>
+<html> /*sdsdssdsdsdsd*/
   <head>
     <title>WebProject</title>
     <meta content="">
@@ -93,10 +93,7 @@ if (!isset ($_SESSION['MM_Username'])){
   <?php echo $row_postlist['anotat']; ?>
   <?php } while ($row_postlist = mysql_fetch_assoc($postlist)); ?>
       </aside>
-       <aside class=" sidebarLeft">
-           <h2>Lorem</h2>
-           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-       </aside>
+
 
 
 
